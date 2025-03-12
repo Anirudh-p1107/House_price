@@ -56,10 +56,6 @@ Creating a categorical target variable (price_category) based on price threshold
 - **Lasso Regression**
   Linear regression with L1 regularization that can eliminate unimportant features.
   
-## Graphs & Visualizations
-- **Bar Plot**: A bar plot is used to visualize the grade's of prices based on the house price.
-- **Predicted vs Actual Prices**: A Scatter plot and Bar plot used to compare predicted and actual prices.
-
   ## Model Comparison Overview
 
 ### Classification Models Performance
@@ -79,17 +75,6 @@ Creating a categorical target variable (price_category) based on price threshold
 | Ridge | 1.82×10⁷ | 13,490 | 9,820 | 0.81 | 0.07 |
 | Lasso | 1.95×10⁷ | 13,964 | 10,105 | 0.79 | 0.09 |
 
-## Single-Line Algorithm Descriptions
-
-| Algorithm | Description |
-|-----------|-------------|
-| KNN | Predicts by finding the most common category among 21 similar houses. |
-| Random Forest Classifier | Combines 100 decision trees to determine price category. |
-| Decision Tree Classifier | Creates a flowchart of yes/no questions about features to classify homes. |
-| SVM | Finds optimal boundaries between price categories, with RBF handling non-linear relationships. |
-| Random Forest Regressor | Predicts exact prices by averaging estimates from 100 decision trees. |
-| Ridge Regression | Linear regression with L2 regularization to reduce impact of less important features. |
-| Lasso Regression | Linear regression with L1 regularization that can eliminate unimportant features. |
 
 ## Feature Importance Ranking
 
@@ -108,6 +93,10 @@ Creating a categorical target variable (price_category) based on price threshold
 | sqft_lot | 0.018 | 11 |
 | street | 0.009 | 12 |
 | statezip | 0.008 | 13 |
+
+## Graphs & Visualizations
+- **Bar Plot**: A bar plot is used to visualize the grade's of prices based on the house price.
+- **Predicted vs Actual Prices**: A Scatter plot and Bar plot used to compare predicted and actual prices.
 
 ## Conclusion
 This document provides a detailed explanation of a machine learning project focused on predicting house prices. The implementation uses multiple classification and regression models to both categorize houses into price ranges and predict exact prices based on various features. 

@@ -1,5 +1,7 @@
 # House Price Prediction
-![House Price Prediction](house price.png)
+<p align="center">
+  <img src="house price.png" alt="House Price Prediction" height="300" width="400">
+</p>
 
 ## Introduction 
 House price prediction is a classic machine learning project that aims to estimate the value of a house based on its features. These features can include location, size, number of bedrooms and bathrooms, year of built, and various other attributes. This project demonstrates the application of several machine learning models to analyze and predict house prices with reasonable accuracy. Accurate house price prediction is valuable for both buyers and sellers, as well as for real estate market analysis.

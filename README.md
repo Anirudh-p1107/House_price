@@ -31,13 +31,13 @@ The dataset contains several features that influence house prices, including:
 - **Water Availability**: No.of resources for availability of water
 - **Other Attributes**: Additional factors such as  floors, etc.
   
- ## Target creation:
+ ## Target creation
 Creating a categorical target variable (price_category) based on price thresholds:
 - Category 1: > $1M
 - Category 2: $500K - $1M
 - Category 3: < $500K
 
-## Model implementation:
+## Model implementation
 ### Classification models:
 - **K-Nearest Neighbors (KNN)**
   Classification report for detailed performance metrics.
